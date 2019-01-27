@@ -1,0 +1,31 @@
+{
+  "name": "pulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/react": "^4.1.11",
+    "@storybook/storybook-deployer": "^2.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-storybook": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook -c .storybook -o storybook",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalmeev/goalPursuit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalmeev/goalPursuit/issues"
+  },
+  "homepage": "https://github.com/khalmeev/goalPursuit#readme"
+}
